@@ -24,7 +24,7 @@ mccabe==0.6.1
 pycodestyle==2.6.0
 pyflakes==2.2.0
 PyJWT==1.4.2
-pylint==2.6.0
+pylint==2.7.0
 pyperclip==1.8.1
 python-dotenv==0.15.0
 pytz==2020.4
@@ -38,3 +38,4 @@ urllib3==1.26.18
 Werkzeug==1.0.1
 wrapt==1.12.1
 zipp==3.4.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
